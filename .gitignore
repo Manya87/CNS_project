@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Streamlit/local secrets
+.streamlit/secrets.toml
+
+# Local app data
+users.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
